@@ -22,12 +22,12 @@
 module.exports = ({ env }) => ({
     auth: {
       apiToken: {
-        salt: env('API_TOKEN_SALT', '9vEHX59B30MyO/r6V6ytUg=='), // API token salt
+        salt: '9vEHX59B30MyO/r6V6ytUg==', // API token salt
       },
     },
     'users-permissions': {
       config: {
-        jwtSecret: env('JWT_SECRET', 'V58LgYG3w4hu98b4CLKrqA=='), // JWT secret
+        jwtSecret: 'V58LgYG3w4hu98b4CLKrqA==', // JWT secret
       },
     },
   });
