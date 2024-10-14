@@ -1,13 +1,13 @@
 export default ({ env }) => ({
   auth: {
-    secret:'V58LgYG3w4hu98b4CLKrqA==',
+    secret:'8S1TZDEdpinmjQ2Wgsb6Mg==',
   },
   apiToken: {
-    salt: '9vEHX59B30MyO/r6V6ytUg==',
+    salt: 'K3g6gicJaCdf6uQLj4of6A==',
   },
   transfer: {
     token: {
-      salt: env('TRANSFER_TOKEN_SALT'),
+      salt: 'w/JWlvL6WuXl5wbiY7M+Sw==',
     },
   },
   flags: {
