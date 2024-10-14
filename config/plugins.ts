@@ -5,5 +5,16 @@ module.exports = ({ env }) => ({
       config: {
         jwtSecret: env('JWT_SECRET', 'V58LgYG3w4hu98b4CLKrqA=='),
       },
+      apiToken: {
+        salt: env('API_TOKEN_SALT', '9vEHX59B30MyO/r6V6ytUg=='),
+      },
     },
   });
+
+//   module.exports = ({ env }) => ({
+//     auth: {
+//       apiToken: {
+//         salt: env('API_TOKEN_SALT', 'yourGeneratedSalt'),
+//       },
+//     },
+//   });
