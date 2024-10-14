@@ -19,15 +19,15 @@ export default () => ({});
 //     },
 //   });
 
-// module.exports = ({ env }) => ({
-//     auth: {
-//       apiToken: {
-//         salt: '9vEHX59B30MyO/r6V6ytUg==', // API token salt
-//       },
-//     },
-//     'users-permissions': {
-//       config: {
-//         jwtSecret: 'V58LgYG3w4hu98b4CLKrqA==', // JWT secret
-//       },
-//     },
-//   });
+module.exports = ({ env }) => ({
+    auth: {
+      apiToken: {
+        salt: '9vEHX59B30MyO/r6V6ytUg==', // API token salt
+      },
+    },
+    'users-permissions': {
+      config: {
+        jwtSecret: 'V58LgYG3w4hu98b4CLKrqA==', // JWT secret
+      },
+    },
+  });
