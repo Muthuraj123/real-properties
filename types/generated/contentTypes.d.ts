@@ -532,7 +532,6 @@ export interface ApiPropertyProperty extends Struct.CollectionTypeSchema {
     thumbnail: Schema.Attribute.Text;
     builder: Schema.Attribute.String;
     builder_logo: Schema.Attribute.Text;
-    slug: Schema.Attribute.UID<'name'>;
     location: Schema.Attribute.Text;
     createdAt: Schema.Attribute.DateTime;
     updatedAt: Schema.Attribute.DateTime;

@@ -27,10 +27,6 @@
     "builder_logo": {
       "type": "text"
     },
-    "slug": {
-      "type": "uid",
-      "targetField": "name"
-    },
     "location": {
       "type": "text"
     }
